@@ -1,0 +1,48 @@
+Text Adventure Project 
+(reference to a Haunted House...?)
+
+- imports: 
+	- random?
+	- save/load file 
+
+- class: 
+	- store information about items, puzzles, and rooms 
+
+
+- functions: 
+	- main: 
+		- starts player in the Haunted House, with six rooms to choose from 
+		- there are 2 items to collect and 1 puzzle to solve 
+		- one room has 1 item, and item must be used in another room (they're all connected) 
+		- puzzle is what makes it all come together 
+		- frees the player from the House 
+
+	- room_choice: 
+		- gives the player options on which room to enter, leaving a room brings player back to this function 
+		- Room 1 - Bedroom One: has "little decoration," needs decoration to unlock 
+		- Room 2 - Attic: has a "lone record player," playing music will make unlock 
+		- Room 3 - Basement: has a "vague smell of rot," find the source to unlock 
+		- Room 4 - Bedroom Two: will have decoration item 
+		- Room 5 - Living Room: will have record to play 
+		- Room 6 - Kitchen: will have key to rot smell 
+
+	- (functions specific to each room will go here) 
+	- bedroom 2: obtain flowers, bedroom 1: put flowers in vase and vase breaks and you receive item1(left eye)
+	- livingroom: obtain record under couch, attic: put record in player and it will give item2(keyword:Adventure)
+	- kitchen: obtain key from sink, basement: unlock cabinet with dead rat and obtain item3(right eye)
+	- frontdoor: put in eyes and say keyword to open door and leave
+
+	- item_one: 
+		- 
+
+	- item_two: 
+		- 
+
+	- puzzle: 
+		- 
+		 
+	- save: 
+		- 
+
+	- load:
+		- 
