@@ -1,0 +1,24 @@
+2025_01_20 
+
+I have uploaded all relevent files and information in order to work on this project.  
+When I submitted this assignment back in class, I was one of the only ones to do so, and so it ended up being considered a 'bonus' project in the class.  Thus, I did not receieve a true grading or critique of the work.
+
+
+      I have not yet carefully scrutinized the project, but I do remember some of the issues I had in the code that I never resolved:
+
+      1) Save/Load - I think I remember that it was not properly saving and loading game information to a file.  I discovered a part of my textbook later on that I marked to read that I think will fix the issue, but I never went back and actually did it.
+
+      2) I just did a short and sweet play of the game, and the string input doesn't seem to recognize lowercase y as the same as Y, which should be fixed.
+
+      3) Not technically incorrect, but the game could use some more helpful hints.  It didn't take me long to resolve the puzzles, but maybe I could add another variable that tracks incorrect attempts and gives more and more hints.  Maybe after like 5 it's nearly a gimmie. 
+
+
+That was the extent of the project, but with what I learned in java I want to attempt to apply some of the more advanced skills here if I can.  
+We never went too much into the OOP ability of python, and mostly worked top down.  So I want to see if I can integrate OOP concepts here, in a way that stays cohesive to what I already have.  
+Ideally I don't want to completely redo this from scratch to do that, though, so I'll see how it goes.
+Another thing I want to really check for is whether the code is clear and concise.  I know I'll likely being working in teams once I get into the industry, 
+so I need to make sure that anyone looking at any of my code would understand at a glance what my intents are and what my variables mean.  Glancing at the variables I used,
+some of them are probably a little confusing, honestly.  
+
+
+My primary objective first will be to address issues 1 and 2 listed above. 
