@@ -1,4 +1,4 @@
-2025_01_20 
+2025_01_20 - 1
 
 I have uploaded all relevent files and information in order to work on this project.  
 When I submitted this assignment back in class, I was one of the only ones to do so, and so it ended up being considered a 'bonus' project in the class.  Thus, I did not receieve a true grading or critique of the work.
@@ -22,3 +22,21 @@ some of them are probably a little confusing, honestly.
 
 
 My primary objective first will be to address issues 1 and 2 listed above. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+2025_01_20 - 2
+
+I started testing my old projects for the bugs.
+
+The first one I came across did have to do with the save/load feature.
+I verified that when starting the program and selecting a new save, it successfully wipes the text document to have 0s for progress checks.
+The issue is once you load a save, whether the values are 0, 1, or 2, the progress checks will not print the correct strings.
+For instance, in the basement, you need to have CHEMICAL in order to open the cabinet, and there is dialouge that is supposed to print based on whether or not you have it.
+However, if playing from a loaded save, no matter whether you have the item or not, the program prints nothing- just asks again what you would like to inspect.
+The place in my python textbook I had annotated to read later has to do with the rstrip function.  In the program, it currently loads the save by initializing three class states for each item used to check progress.
+It takes the data from the text file with the load_data.readline() function.  I must have thought that I could fix the issue by adding on the method for rstrip somewhere in this, so I am going to attempt it now and see.
+I created a new save, checked the basement puzzle which printed the string that I didn't have the right item, and then I saved.  When I reloaded the game and went back to the basement, it finally printed the string it was meant to.
+However, a new issue popped up: this additional method was messing with the text file, and after a couple of saves/loads it had erased everything after the first number.  
+I had assumed that since the argument passed into rstrip was \n, it would only strip the blank spaces off.  I'm not sure why it's erasing numbers.  I'll have to do some research into what's going on here!
+
