@@ -81,6 +81,7 @@ def load(player):
     with open("save_data.txt", "r") as load_data:
         player.item_one = load_data.readline()
         player.item_two = load_data.readline()
+        player.item_two = player.item_two.rstrip('\n')
         player.item_three = load_data.readline()
         load_data.close()
         print("\nYour progress has been restored.\n")
